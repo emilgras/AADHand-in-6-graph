@@ -1,1 +1,1 @@
-# 6. Handin - Algorithms
+# 6th Handin - Algorithms
