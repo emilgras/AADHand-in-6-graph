@@ -1,6 +1,8 @@
 package main.solutions;
 
 import main.*;
+import main.Edge;
+import main.Graph;
 
 import java.util.ArrayList;
 import java.util.List;

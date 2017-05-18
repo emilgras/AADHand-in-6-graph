@@ -1,5 +1,7 @@
 package main;
 
+import main.Node;
+
 public class Edge {
 
 	private int weight;

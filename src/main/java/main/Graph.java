@@ -1,5 +1,7 @@
 package main;
 
+import main.Node;
+
 import java.util.List;
 
 public class Graph {
