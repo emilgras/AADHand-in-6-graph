@@ -18,4 +18,6 @@ Purpose:
 Handin is the 19. of may. Handin should be made as a pull request on this repository.
 ___________________________________________________________________________________
 
+To make solutions for the presented problems, the following set of youtube videos have been usefull:
 
+[Tushar Roy graph videos](https://www.youtube.com/playlist?list=PLrmLmBdmIlpu2f2g8ltqaaCZiq6GJvl1j)
