@@ -1,6 +1,4 @@
-package main;
-
-import main.Node;
+package main.model;
 
 public class Edge {
 

@@ -1,8 +1,11 @@
-package main;
+package main.algorithms;
+
+import main.model.Graph;
+import main.model.Node;
 
 import java.util.*;
 
-public class DepthFirst {
+public class CycleDetection {
 
 	private Map<Node, Node> parentMap = new HashMap();
 	private Set<Node> cycleNodes = new HashSet();

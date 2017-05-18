@@ -1,8 +1,9 @@
 package main.solutions;
 
-import main.*;
-import main.Edge;
-import main.Graph;
+import main.model.Edge;
+import main.model.Graph;
+import main.model.Node;
+import main.algorithms.CycleDetection;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,7 +12,7 @@ import java.util.Set;
 public class Solution1 {
 	public static void main(String[] args) {
 		Graph graph = Solution1.generateDirectedGraph();
-		DepthFirst dfs = new DepthFirst();
+		CycleDetection dfs = new CycleDetection();
 		Set<Node> cycleSet = dfs.hasCycle(graph);
 		for (Node node: cycleSet) {
 			System.out.println(node.getId());

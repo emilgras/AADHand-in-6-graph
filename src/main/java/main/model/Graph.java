@@ -1,6 +1,4 @@
-package main;
-
-import main.Node;
+package main.model;
 
 import java.util.List;
 

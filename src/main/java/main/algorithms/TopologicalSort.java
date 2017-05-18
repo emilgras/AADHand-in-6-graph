@@ -1,7 +1,9 @@
-package main;
+package main.algorithms;
+
+import main.model.Graph;
+import main.model.Node;
 
 import java.util.*;
-import java.util.concurrent.ArrayBlockingQueue;
 
 public class TopologicalSort {
 

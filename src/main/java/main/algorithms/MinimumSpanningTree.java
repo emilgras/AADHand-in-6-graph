@@ -1,4 +1,6 @@
-package main;
+package main.algorithms;
+
+import main.model.*;
 
 import java.util.ArrayList;
 import java.util.Collections;

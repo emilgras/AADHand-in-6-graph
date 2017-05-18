@@ -1,9 +1,9 @@
 package main.solutions;
 
-import main.Edge;
-import main.Graph;
-import main.Node;
-import main.TopologicalSort;
+import main.model.Edge;
+import main.model.Graph;
+import main.model.Node;
+import main.algorithms.TopologicalSort;
 
 import java.util.*;
 

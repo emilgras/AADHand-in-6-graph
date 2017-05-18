@@ -1,9 +1,9 @@
 package main.solutions;
 
-import main.Edge;
-import main.Graph;
-import main.MinimumSpanningTree;
-import main.Node;
+import main.model.Edge;
+import main.model.Graph;
+import main.algorithms.MinimumSpanningTree;
+import main.model.Node;
 
 import java.util.ArrayList;
 import java.util.List;

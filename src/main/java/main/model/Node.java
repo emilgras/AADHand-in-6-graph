@@ -1,4 +1,4 @@
-package main;
+package main.model;
 
 import java.util.HashSet;
 import java.util.List;
