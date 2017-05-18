@@ -1,18 +1,15 @@
 package main;
 
-import java.util.HashSet;
-import java.util.Queue;
-import java.util.Set;
+import java.util.*;
 import java.util.concurrent.ArrayBlockingQueue;
 
 public class TopologicalSort {
 
-	private Queue<Node> stack;
-	private Set<Node> visited;
+	private Set<Node> typoOrderedSet = new HashSet<Node>();
 
-	public Set<Node> topSort(Graph graph) {
-		stack = new ArrayBlockingQueue<Node>(graph.getNodes().size());
-		visited = new HashSet();
+	public Stack<Node> topSort(Graph graph) {
+		Stack<Node> stack = new Stack<Node>();
+		Set<Node> visited = new HashSet();
 		for (Node node: graph.getNodes()) {
 			if(visited.contains(node)) {
 				continue;
@@ -20,19 +17,19 @@ public class TopologicalSort {
 				topSortUtil(node, stack, visited);
 			}
 		}
-		return null;
+		return stack;
 	}
 
-	private void topSortUtil(Node node, Queue<Node> stack, Set<Node> visited) {
+	private void topSortUtil(Node node, Stack<Node> stack, Set<Node> visited) {
 		visited.add(node);
 		for (Node child: node.getAdjacent()) {
-			if(visited.contains(node)) {
+			if(visited.contains(child)) {
 				continue;
 			} else {
-				topSortUtil(node, stack, visited);
+				topSortUtil(child, stack, visited);
 			}
 		}
-		stack.offer(node);
+		stack.push(node);
 	}
 
 }
