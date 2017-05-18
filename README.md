@@ -38,7 +38,7 @@ topological solution
 
 shortest path graph
 
-<img src="shortest%20path.jpg2" width="500">
+<img src="shortest%20path2.jpg" width="500">
 
 shortest path solution
 
