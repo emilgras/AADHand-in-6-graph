@@ -1,5 +1,11 @@
 # AADHand-in-6-graph
-## Handin 6 in the course Algorithms and datastrucktures
+## Handin 6 in the course Algorithms and datastructures
+
+Solution created by:
+Rune V Zimsen
+Emil R. Perdersen
+Dennis Rønnebæk
+Ebbe V. Nielsen
 _____________________
 Purpose:
 - 1. You should create a Cycle detection algorithm, that takes a graph as input and as output it returns a cycle in the graph (list of vertices) or null, if there is no cycles in the graph.
